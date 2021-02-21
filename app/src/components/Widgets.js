@@ -5,9 +5,18 @@ import { DataContext } from '../contexts/DataContext';
 const Widgets = () => {
     const {updates} = useContext(DataContext);
     return (
-        <div className="MainWidget">
-            <p>{updates.current}</p>
-        </div>
+        {
+            updates && () => {
+            const {condition, temp_c, temp_f} = updates;
+            return (
+                <div className="MainWidget">
+                    <h1>{temp_c}</h1>
+                    <div>{condition}</div>
+                </div>
+            )
+            }  
+        }
+
     );
 }
 
