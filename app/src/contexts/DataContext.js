@@ -5,17 +5,17 @@ export const DataContext = createContext();
 
 const DataContextProvider = (props) => {
     const [updates, setUpdates] = useState();
-    const url = "https://api.weatherapi.com/v1/current.json?key=931701d0de0c4d05b0b34936203011&q=London";
+    const url = "https://api.weatherapi.com/v1/current.json?key=931701d0de0c4d05b0b34936203011&q=Canada";
 
     useEffect(() => {
-        axios.get(url)
-         .then(res => {
-             setUpdates(res.data.current)
-         })
-         .catch(err => {
-             console.log(err)
-         })
-    })
+       axios.get(url)
+        .then(res => {
+            setUpdates(res.data.current)
+        }) 
+        .catch(err => {
+            console.log(err)
+        })
+     })
     console.log(updates);
     return (
         <div>
