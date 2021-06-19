@@ -1,2 +1,2 @@
 # weather.app
-Simple Weather Web Application/Widget
+Reactjs Weather Web Application/Widget
