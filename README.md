@@ -1,2 +1,2 @@
-# weather.app
+# weatherwidget
 Reactjs Weather Web Application/Widget
