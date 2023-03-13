@@ -2,7 +2,7 @@
 This is a simple weather app built using ReactJS and TailwindCSS. It allows users to enter a location and see the current weather conditions for that location.
 
 ## Getting Started
-To get started with this app, simply clone this repository and run npm install to install the necessary dependencies. You can then run npm start to start the development server.
+To get started with this app, simply clone this repository and run `npm install` to install the necessary dependencies. You can then run npm start to start the development server.
 
 ## Features
 This weather app includes the following features:
