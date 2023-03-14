@@ -6,14 +6,14 @@ import WeatherDisplay from "./WeatherDisplay"
 const Main = () => {
   return (
     <div
-      className={`${styles.innerWidth} ${styles.xPaddings} relative lg:mt-20`}
+      className={`${styles.innerWidth} ${styles.xPaddings} relative mt-5 lg:mt-20`}
     >
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-2">
         <div className="text-start  lg:mb-0">
           <p>You know —</p>
           <QuotesApi category="environmental" />
         </div>
-        <div className="">
+        <div>
           <WeatherDisplay />
         </div>
       </div>
