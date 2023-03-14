@@ -2,16 +2,19 @@ import "./App.css"
 import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Logo from "./components/Logo"
-import Quotes from "./components/Quotes"
+import Main from "./components/Main"
+import DataContextProvider from "./context/DataContext"
 
 function App() {
   return (
-    <div className="App">
+    <DataContextProvider>
+      <div className="App">
         <Header />
         <Logo />
-        <Quotes />
+        <Main />
         <Footer />
-    </div>
+      </div>
+    </DataContextProvider>
   )
 }
 

@@ -55,3 +55,15 @@ img.text-black {
     rgba(255, 255, 255, 0) 100%
   );
 }
+
+.spinner {
+  border-top-color: transparent !important;
+  border-right-color: transparent !important;
+  animation: spinner 1s linear infinite;
+}
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}

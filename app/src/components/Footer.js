@@ -22,7 +22,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <p className="text-secondary-white dark:text-neutral-600">
+            <p className="text-secondary-white dark:text-neutral-400">
               &#169; {new Date().getFullYear()} Designed and Developed by Kelvin
               Yelyen
             </p>
