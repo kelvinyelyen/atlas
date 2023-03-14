@@ -4,6 +4,9 @@ This is a simple weather app built using ReactJS and TailwindCSS. It allows user
 ## Getting Started
 To get started with this app, simply clone this repository and run `npm install` to install the necessary dependencies. You can then run npm start to start the development server.
 
+## Live Demo
+You can view the live version of this app at https://atlasweatherfocus.vercel.app/
+
 ## Features
 This weather app includes the following features:
 
