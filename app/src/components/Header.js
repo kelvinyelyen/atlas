@@ -51,12 +51,14 @@ const Header = () => {
           {isModalOpen && (
             <div className="modal fixed top-0 left-0 w-full h-full bg-opacity-30 bg-gray-600 flex items-center justify-center z-10 bg-clip-padding backdrop-filter backdrop-blur-sm border border-gray-100">
               <div className="modal-content bg-white p-6 rounded-lg shadow-lg ">
+              
                 <span
-                  className="close absolute top-0 right-0 p-4 text-[30px] cursor-pointer mr-12"
+                  className="close absolute top-0 right-0 p-4 text-[30px] cursor-pointer mr-0 lg:mr-12"
                   onClick={handleCloseModal}
                 >
                   &times;
                 </span>
+
                 <form
                   onSubmit={handleSubmit}
                   className="relative flex w-[350px] flex-wrap items-stretch"
@@ -89,6 +91,7 @@ const Header = () => {
                       </svg>
                     </span>
                   </button>
+
                 </form>
               </div>
             </div>

@@ -31,7 +31,7 @@ const QuotesApi = ({ category }) => {
     <div>
       {quotes.map((quote) => (
         <div key={quote.id}>
-          <p className="migra text-[30px]">
+          <p className="migra text-[25px] lg:text-[30px] justify-center">
             {quote.quote} — <em>{quote.author}</em>
           </p>
         </div>
