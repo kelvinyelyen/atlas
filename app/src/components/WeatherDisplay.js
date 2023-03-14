@@ -29,7 +29,7 @@ const WeatherDisplay = () => {
   }
 
   return (
-    <div className="gradient-5">
+    <div className="my-20">
       <h2>
         {weatherData.name} {weatherData.timezone}
       </h2>
