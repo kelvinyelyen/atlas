@@ -12,7 +12,7 @@ const QuotesApi = ({ category }) => {
           `https://api.api-ninjas.com/v1/quotes?category=${category}`,
           {
             headers: {
-              "X-Api-Key": "process.env.QUOTES_API_KEY",
+              "X-Api-Key":" dmP4aqdQ5Ts/1/DX85Ci3Q==3uRlNv8TR4dbLyyA",
               "Content-Type": "application/json",
             },
           }
