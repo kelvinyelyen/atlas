@@ -1,4 +1,4 @@
-const API_KEY = "a315b48a8213611e3e0c0800efd22580"
+const API_KEY = "process.env.WEATHER_API_KEY"
 
 export const fetchWeatherData = async (city) => {
   const response = await fetch(
