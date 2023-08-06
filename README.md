@@ -1,23 +1,32 @@
-# Weather App
-This is a simple weather app built using ReactJS and TailwindCSS. It allows users to enter a location and see the current weather conditions for that location.
+# Weather
 
-## Getting Started
-To get started with this app, simply clone this repository and run `npm install` to install the necessary dependencies. You can then run npm start to start the development server.
-
-## Live Demo
-You can view the live version of this app at https://atlasweatherfocus.vercel.app/
+A quick design and development experiment exploring streamlining in UI design and web development: Striving for simplicity amidst information influx.
 
 ## Features
-This weather app includes the following features:
 
-* Enter a location to see the current weather conditions for that location
-* Automatically detects the user's location if they grant permission
-* Displays the temperature, humidity, wind speed, and other weather information
-* Displays an icon representing the weather condition
+- Enter a location to see the current weather conditions
+- Automatic user location detection with permission
+- Display of temperature, humidity, wind speed, and weather information
+- Weather condition icon representation
 
-## Technologies Used
-This weather app was built using the following technologies:
+## Tech Stack
 
-* ReactJS
-* TailwindCSS
-* OpenWeatherMap API
+- ReactJS
+- TailwindCSS
+- OpenWeatherMap API
+
+## Getting Started
+
+1. Clone this repository.
+2. Run `npm install` to install dependencies.
+3. Start the development server with `npm start`.
+
+## Live Demo
+
+View the live version of this app at [Live](https://atlasweatherfocus.vercel.app/)
+Design Screens [Behance](https://www.behance.net/gallery/175464985/Weather-Focus)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
