@@ -1,4 +1,4 @@
-# Weather
+# Atlas Weather Focus
 
 A quick design and development experiment exploring streamlining in UI design and web development: Striving for simplicity amidst information influx.
 
