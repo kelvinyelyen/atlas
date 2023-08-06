@@ -26,7 +26,4 @@ A quick design and development experiment exploring streamlining in UI design an
 View the live version of this app at [Live](https://atlasweatherfocus.vercel.app/)
 Design Screens [Behance](https://www.behance.net/gallery/175464985/Weather-Focus)
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
