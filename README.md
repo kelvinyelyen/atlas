@@ -21,9 +21,3 @@ This weather app was built using the following technologies:
 * ReactJS
 * TailwindCSS
 * OpenWeatherMap API
-
-## Contributing
-If you would like to contribute to this project, please fork the repository and submit a pull request. All contributions are welcome!
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
