@@ -2,7 +2,7 @@
 
 A quick design and development experiment exploring streamlining in UI design and web development: Striving for simplicity amidst information influx.
 
-![Board 01](https://github.com/kelvinyelyen/atlas/assets/52675327/a1dcca4a-1f1a-454f-89e3-1575a01df208)
+![MacBook Pro 16_ - 7](https://github.com/kelvinyelyen/atlas/assets/52675327/52a9555b-dd7c-47d3-bbb9-d5fc1eb7997f)
 
 ## Live Demo
 
